@@ -1,0 +1,13 @@
+{
+  "name": "link-bio-ionnetwork",
+  "version": "1.0.0",
+  "description": "ION Network Link Bio Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "Karyawan Teladan ION Network",
+  "license": "ISC"
+}
