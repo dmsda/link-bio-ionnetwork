@@ -271,6 +271,20 @@ header {
         0 0 22px rgba(254, 216, 9, 0.3);
 }
 
+/* Showcase Produk Highlight */
+.social-link.showcase-link {
+    border-color: rgba(254, 216, 9, 0.4);
+    background: linear-gradient(90deg, rgba(25, 116, 210, 0.18) 0%, rgba(254, 216, 9, 0.12) 50%, rgba(33, 35, 34, 0.95) 100%);
+}
+
+.social-link.showcase-link:hover {
+    border-color: var(--color-accent);
+    background: linear-gradient(90deg, rgba(25, 116, 210, 0.3) 0%, rgba(254, 216, 9, 0.22) 100%);
+    box-shadow: 
+        0 8px 24px rgba(0, 0, 0, 0.5),
+        0 0 24px rgba(254, 216, 9, 0.35);
+}
+
 .link-left {
     display: flex;
     align-items: center;
@@ -306,13 +320,15 @@ header {
     color: #64b5f6;
 }
 
-.social-link.highlight .icon-box {
+.social-link.highlight .icon-box,
+.social-link.showcase-link .icon-box {
     background: rgba(254, 216, 9, 0.15);
     border-color: rgba(254, 216, 9, 0.4);
     color: var(--color-accent);
 }
 
-.social-link.highlight:hover .icon-box {
+.social-link.highlight:hover .icon-box,
+.social-link.showcase-link:hover .icon-box {
     background: var(--color-accent);
     color: var(--color-tertiary);
     border-color: var(--color-accent);

@@ -1,13 +1,33 @@
 {
   "name": "link-bio-ionnetwork",
-  "version": "1.0.0",
-  "description": "ION Network Link Bio Page",
+  "version": "2.0.0",
+  "description": "Official Link in Bio & Digital Infrastructure Showcase for ION Network Indonesia",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
   },
-  "keywords": [],
-  "author": "Karyawan Teladan ION Network",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmsda/link-bio-ionnetwork.git"
+  },
+  "keywords": [
+    "ion-network",
+    "link-in-bio",
+    "linktree-alternative",
+    "isp",
+    "fiber-optic",
+    "data-center",
+    "cloud",
+    "glassmorphism",
+    "design-system",
+    "seo-optimized",
+    "indonesia"
+  ],
+  "author": "PT ION Network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmsda/link-bio-ionnetwork/issues"
+  },
+  "homepage": "https://github.com/dmsda/link-bio-ionnetwork#readme"
 }
